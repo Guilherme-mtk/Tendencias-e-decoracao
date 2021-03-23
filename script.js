@@ -1,10 +1,13 @@
 
 function typewriter(elemento) {
-  const textoArray = elemento.innerHTML.slipt('');
+  const textoArray = elemento.innerText.split('');
   elemento.innerHTML = '';
   textoArray.forEach((letra,i)=> {
-    setTimeout()
+    setTimeout(function() {
+        elemento.innerHTML+= letra;
+    }, 75 * i)
   });
+ 
 }
 
 
