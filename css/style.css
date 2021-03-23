@@ -1,8 +1,6 @@
 body,h1,h2,ul,li {
   margin: 0px;
   padding: 0px;
-  
-  
 }
 
 body {
@@ -87,11 +85,11 @@ a {
   margin: 50px auto;
   justify-content: center;
   color: goldenrod;
-  
 }
 
 .imgs {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .iimgs {
@@ -101,7 +99,7 @@ a {
 .conteudo-texto {
   color: floralwhite;
   display: flex;
-  width: 700px;
+  max-width: 700px;
   padding: 2.0rem;
   margin: 20px auto;
   border-top: solid 3px goldenrod;
