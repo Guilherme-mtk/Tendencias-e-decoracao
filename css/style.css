@@ -1,6 +1,12 @@
 body,h1,h2,ul,li {
   margin: 0px;
   padding: 0px;
+  
+  
+}
+
+body {
+  background: #1C1C1C;
   font-family: 'Spectral', serif;
 }
 * {
@@ -64,3 +70,41 @@ a {
   line-height: 84px;
   font-weight: 400;
 }
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.conteudo {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin: 0 30px;
+}
+
+.conteudo h1 {
+  display: flex;
+  margin: 50px auto;
+  justify-content: center;
+  color: goldenrod;
+  
+}
+
+.imgs {
+  display: flex;
+}
+
+.iimgs {
+ margin: 20px 30px;
+}
+
+.conteudo-texto {
+  color: floralwhite;
+  display: flex;
+  width: 700px;
+  padding: 2.0rem;
+  margin: 20px auto;
+  border-top: solid 3px goldenrod;
+  font-size: 1.0rem;
+}
+
