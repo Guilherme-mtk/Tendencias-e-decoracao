@@ -36,6 +36,10 @@ ul {
   flex-wrap: wrap;
 }
 
+.menu ul li a:hover {
+  color: goldenrod;
+}
+
 a {
   color: #ffffff;
   padding: 3rem;
