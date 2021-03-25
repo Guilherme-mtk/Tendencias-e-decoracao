@@ -11,5 +11,4 @@
 // }
 
 
-// const titulo = document.querySelector('h1');
-// typewriter(titulo);
+
