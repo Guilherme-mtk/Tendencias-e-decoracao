@@ -111,4 +111,9 @@ a {
   font-size: 1.3rem;
 }
 
+.imgs,.iimgs:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
 
