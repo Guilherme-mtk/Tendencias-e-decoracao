@@ -73,7 +73,7 @@ a {
   font-weight: 400;
 }
 
-.section-1,.section-2,.section-3  {
+.section-1,.section-2,.section-3,.section-4  {
   display: flex;
   justify-content: center;
 }
