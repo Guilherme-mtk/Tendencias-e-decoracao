@@ -1,6 +1,7 @@
 body,h1,h2,ul,li {
   margin: 0px;
   padding: 0px;
+
 }
 
 body {
@@ -33,7 +34,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  flex-wrap: wrap;
+  
 }
 
 .menu ul li a:hover {
@@ -111,9 +112,30 @@ a {
   font-size: 1.3rem;
 }
 
-.imgs,.iimgs:hover {
+.imgs,.iimgs:hover ,.imgp5:hover {
   transform: scale(1.1);
   transition: 1s;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
 
+.section-5 {
+ height: 173vh;
+ max-width: 93vw;
+ column-count: 6;
+ margin: 0 auto;
+overflow: hidden;
+}
+
+ .imgp5{
+   margin-bottom: 20px;
+ }
+
+
+
+
+
+ 
