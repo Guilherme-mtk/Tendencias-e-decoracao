@@ -123,9 +123,9 @@ img {
 }
 
 .section-5 {
- height: 173vh;
+ height: 247vh;
  max-width: 93vw;
- column-count: 6;
+ column-count: 5;
  margin: 0 auto;
 overflow: hidden;
 }
