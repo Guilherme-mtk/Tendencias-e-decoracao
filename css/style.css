@@ -112,10 +112,11 @@ a {
   font-size: 1.3rem;
 }
 
-.imgs,.iimgs:hover ,.imgp5:hover {
+.imgs,.iimgs:hover,.imgp5:hover {
   transform: scale(1.1);
   transition: 1s;
 }
+
 
 img {
   display: block;
@@ -123,8 +124,8 @@ img {
 }
 
 .section-5 {
- height: 247vh;
- max-width: 93vw;
+ height: 246vh;
+ max-width: 92vw;
  column-count: 5;
  margin: 0 auto;
 overflow: hidden;
@@ -133,6 +134,12 @@ overflow: hidden;
  .imgp5{
    margin-bottom: 20px;
  }
+
+
+
+ }
+
+
 
 
 
