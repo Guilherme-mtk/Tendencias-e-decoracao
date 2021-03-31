@@ -41,7 +41,7 @@ ul {
   color: goldenrod;
 }
 
-a {
+.menu a {
   color: #ffffff;
   padding: 3rem;
   font-size: 2rem;
@@ -143,6 +143,10 @@ img {
 
  .footer p {
  align-items: center;
+ }
+
+ .footer a {
+   color: #ffffff;
  }
 
 
