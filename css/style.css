@@ -158,8 +158,9 @@ img {
     height: 80vh;
   }
    .menu a {
-     padding:1rem;
-     font-size: 1.7rem;
+     padding:15px;
+     font-size: 1.4rem;
+     text-align: center;
    }
 
    .titulo {
@@ -188,10 +189,7 @@ img {
 
   .section-5 {
     column-count: 2;
-  }
-
-  .Blockquote {
-    text-align: center;
+    height: 75vh;
   }
 
 
