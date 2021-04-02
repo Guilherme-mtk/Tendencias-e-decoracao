@@ -156,9 +156,10 @@ img {
 
   .header {
     height: 80vh;
+    width: 100vw;
   }
    .menu a {
-     padding:15px;
+     padding:10px;
      font-size: 1.4rem;
      text-align: center;
    }
