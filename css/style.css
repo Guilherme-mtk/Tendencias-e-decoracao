@@ -156,13 +156,20 @@ img {
 
   .header {
     height: 80vh;
-    width: 100vw;
   }
-   .menu a {
+
+  .menu ul {
+    justify-content: center;
+  }
+
+  .menu a {
      padding:10px;
      font-size: 1.4rem;
-     text-align: center;
    }
+
+   .imgs,.iimgs:hover,.imgp5:hover {
+    transform: scale(1.0);
+  }
 
    .titulo {
     height: 60vh;
@@ -186,13 +193,11 @@ img {
     text-align: center;
     width: 400px;
     text-align: justify;
-  }
+   }
 
   .section-5 {
     column-count: 2;
-    height: 500vh;
   }
-
 
  }
 
