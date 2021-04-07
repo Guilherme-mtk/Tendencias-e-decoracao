@@ -152,7 +152,7 @@ img {
 
 
 
- @media (max-width:768px) {
+ @media only screen and (max-width:768px){
 
   .header {
     height: 80vh;
@@ -183,6 +183,10 @@ img {
     font-weight: 400;
   }
 
+  .conteudo-texto {
+    text-align: center;
+  }
+
   .imgs {
     display: flex;
     justify-content: center;
@@ -199,6 +203,35 @@ img {
     column-count: 2;
   }
 
+}
+
+  @media screen and (max-width: 1200px) {
+
+    body {
+      overflow-x: hidden;
+    }
+
+    .imgs {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .conteudo-texto {
+     border: none;
+    } 
+
+    .section-5 {
+      column-count: 3;
+    }
+
+ }
+
+ @media screen and (max-width: 1700px) {
+ 
+  .section-5 {
+    height: 100vh;
+  }
  }
 
 
