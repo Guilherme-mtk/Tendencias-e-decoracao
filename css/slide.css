@@ -1,0 +1,30 @@
+.container-slide {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  margin-top: 100px;
+}
+
+#slider {
+  width: 80%;
+  height: 50vw;
+  max-height: 700px;
+  position: relative;
+  margin: 50px auto;
+  max-width: 1000px;
+}
+
+#slider img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 800ms;
+}
+
+#slider img.selected {
+  opacity: 1;
+}
