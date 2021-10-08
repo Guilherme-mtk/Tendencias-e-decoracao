@@ -86,26 +86,16 @@ main {
 img {
   max-width: 100%;
   margin: 0 30px;
-  animation: animaimg 10s ease;
+  animation: animassection 3s ease;
 }
 
 .container p {
   font-size: 1.5rem;
   width: 40%;
-  animation: animap 5s ease;
+  animation: animassection 3s ease;
 }
 
-@keyframes animap {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes animaimg {
+@keyframes animassection {
   from {
     opacity: 0;
     transform: translateX(-50px);
@@ -139,4 +129,13 @@ img {
 
 .footer a {
   color: azure;
+}
+
+.js-scroll {
+  opacity: 0;
+}
+
+.js-scroll.ativo {
+  opacity: 1;
+  animation: animassection 3s ease;
 }
