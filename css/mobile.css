@@ -1,3 +1,9 @@
+@media (max-width: 1600px) {
+  .conteudo-texto {
+    margin-top: 10%;
+  }
+}
+
 @media (max-width: 1366px) {
   .menu ul {
     justify-content: center;
@@ -31,7 +37,7 @@
   }
 
   .conteudo-texto {
-    margin-top: 5%;
+    margin-top: 15%;
   }
 }
 
